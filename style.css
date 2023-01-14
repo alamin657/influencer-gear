@@ -1,13 +1,17 @@
+*{
+    margin: 0;
+}
 /* Nav-section */
 
 .heading-influence{
-    margin-top: 120px;
+    margin-top: 90px;
     margin-left: 120px;
     color: #3A3A3A;
+    font-size: 24px;
 
 }
 .list-container{
-    margin-right: 300px;
+    margin-right: 120px;
     margin-bottom: 95px;
     gap: 80px;
 }
@@ -15,8 +19,6 @@
     display: flex;
     justify-content: end;
     gap: 25px;
-    /* margin-top: 95px; */
-    /* margin-right: 120px; */
     list-style: none;
     
 }
@@ -29,6 +31,7 @@
 .section-container{
     display: flex;
     gap: 130px;
+   
 }
 .text-discription{
     color:#3A3A3A;
@@ -47,40 +50,63 @@
         background:#E02C6D;
         
 }
-.main-camera img{
+.main-camera{
     background-image:url(images/Circle\ design.svg);
     width:440px;
     height: 414px;
-    padding-bottom: 50px;
-    /* margin:211px 165px; */
+    margin-right: 130px;
+    margin-bottom: 50px;
+   
 }
-/* online margeting */
-/* .marget-container{
-    margin-left: ;
-} */
 hr{
-    width: 950px;
+    width: 1150px;
+    margin-top: 40px;
 }
 .online-marget{
+    margin-top: 40px;
     height: 30px;
     display: flex;
-    /* margin-top: 70px; */
     margin-left: 165px;
+
     gap: 40px;
 }
 /* popular collection */
-.headig-text{
-   display: flex;
-   justify-content: center;
+.popular-section{
+    margin-left: 90px;
+   
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: #3A3A3A;
+
 }
 .camera-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    margin-right: 200px;
+   grid-column-gap:5px;
+    
+}
+.color-star i{
+    color: orange;
+}
+.paragraph-color{
+    color:gray;
 }
 /* Featured products at one place */
+.blogs{
+    margin-top: 100px;
+    margin-left: 165px;
+}
+.blog{
+    margin-top: 125px;
+}
 .blog-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
 }
 .btn-secondary{
     border: none;
@@ -97,6 +123,7 @@ hr{
     align-items: center;
     width: 100%;
     height: 40vh;
+    margin-top: 100px;
     background:black;
 }
 .influence-heading{
@@ -104,4 +131,9 @@ hr{
 }
 .copy-right{
     color: #D9DBE1;
+}
+.social-media{
+    display: flex;
+    gap: 16px;
+    color: white;
 }
