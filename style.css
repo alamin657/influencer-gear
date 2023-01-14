@@ -1,0 +1,55 @@
+/* Nav-section */
+
+.heading-influence{
+    margin-top: 87px;
+    margin-left: 120px;
+    color: #3A3A3A;
+
+}
+.list-container{
+    margin-right: 300px;
+    margin-bottom: 95px;
+    gap: 80px;
+}
+.list-item{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    /* margin-top: 95px; */
+    margin-right: 120px;
+    list-style: none;
+    
+}
+.anchor-text{
+    text-decoration: none;
+    color: black;
+}
+/* ------main-section--------
+-------My journey as influencer */
+.section-container{
+    display: flex;
+    gap: 130px;
+}
+.text-discription{
+    color:#3A3A3A;
+    margin-left: 120px;
+    margin-top: 20px;
+    
+}
+.lorem-size{
+    font-size: 16px;
+}
+.btn-primary{
+        border-radius: 40px;
+        border: none;
+        padding: 10px 24px;
+        color: white;
+        background:#E02C6D;
+        
+}
+.main-camera img{
+    width:440px;
+    height: 414px;
+    padding-bottom: 50px;
+    /* margin:211px 165px; */
+}
